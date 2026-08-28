@@ -2,8 +2,6 @@ name: Reproduce latest release
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 2 * * *' # every day at 02:00 night
 
 jobs:
   reproduce:
